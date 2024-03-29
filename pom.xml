@@ -60,7 +60,7 @@
             </goals>
             <configuration>
               <skipValidateSpec>true</skipValidateSpec>
-              <inputSpec>${project.basedir}/src/main/resources/api/quotes.yaml</inputSpec>
+              <inputSpec>${project.basedir}/src/main/resources/petStore.yml</inputSpec>
               <generatorName>spring</generatorName>
               <supportingFilesToGenerate>ApiUtil.java</supportingFilesToGenerate>
               <templateResourcePath>${project.basedir}/src/main/resources/templates/JavaSpring</templateResourcePath>

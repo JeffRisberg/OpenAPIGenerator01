@@ -12,3 +12,17 @@ This module contains articles about various Spring Boot libraries
 - [Using OpenAI ChatGPT APIs in Spring Boot](https://www.baeldung.com/spring-boot-chatgpt-api-openai)
 - [Introduction to Spring Modulith](https://www.baeldung.com/spring-modulith)
 - More articles: [[prev -->]](/spring-boot-modules/spring-boot-libraries)
+
+
+mvn clean install
+
+[ERROR] Failed to execute goal org.openapitools:openapi-generator-maven-plugin:7.3.0:
+generate (default) on project spring-boot-openapi: 
+Execution default of goal org.openapitools:openapi-generator-maven-plugin:7.3.0:
+generate failed: Unable to load the mojo 'generate' in the plugin 
+'org.openapitools:openapi-generator-maven-plugin:7.3.0' due to an API incompatibility:
+org.codehaus.plexus.component.repository.exception.ComponentLookupException: org/openapitools/codegen/plugin/CodeGenMojo 
+has been compiled by a more recent version of the Java Runtime (class file version 55.0), 
+this version of the Java Runtime only recognizes class file versions up to 52.0
+[ERROR] -----------------------------------------------------
+[ERROR] realm =    plugin>org.openapitools:openapi-generator-maven-plugin:7.3.0
