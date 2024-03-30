@@ -71,8 +71,8 @@
                 <dateLibrary>java8</dateLibrary>
                 <openApiNullable>false</openApiNullable>
                 <delegatePattern>true</delegatePattern>
-                <apiPackage>com.baeldung.tutorials.openapi.quotes.api</apiPackage>
-                <modelPackage>com.baeldung.tutorials.openapi.quotes.api.model</modelPackage>
+                <apiPackage>com.baeldung.openapi.api</apiPackage>
+                <modelPackage>com.baeldung.openapi.api.model</modelPackage>
                 <documentationProvider>source</documentationProvider>
               </configOptions>
             </configuration>
