@@ -10,12 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MessageController {
 
-  @GetMapping("/chat")
-  public Message chat(@RequestParam String prompt) {
+  // The jersey counterypart of this would be:
+  // @GET
+  // @Path("/chat")
+  // public Message chat(@QueryParam("source) String source) {
 
-    log.info("running hello");
+  @GetMapping("/chat")
+  public Message chat(@RequestParam String source) {
+
+    log.info("running chat1");
     Message message = new Message();
-    message.setSource(prompt);
+    message.setSource(source);
     message.setContent("hello to you");
 
     return message;
