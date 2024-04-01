@@ -15,6 +15,13 @@
     <relativePath/>
   </parent>
 
+  <properties>
+    <lombokversion>1.18.30</lombokversion>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <openapi-generator.version>7.3.0</openapi-generator.version>
+    <swagger-annotations.version>2.2.20</swagger-annotations.version>
+  </properties>
 
   <!--    <parent>-->
   <!--        <groupId>com.baeldung.spring-boot-modules</groupId>-->
@@ -44,6 +51,11 @@
       <groupId>io.swagger.core.v3</groupId>
       <artifactId>swagger-annotations</artifactId>
       <version>${swagger-annotations.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombokversion}</version>
     </dependency>
   </dependencies>
 
@@ -85,12 +97,5 @@
       </plugin>
     </plugins>
   </build>
-
-  <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-    <openapi-generator.version>7.3.0</openapi-generator.version>
-    <swagger-annotations.version>2.2.20</swagger-annotations.version>
-  </properties>
 
 </project>
