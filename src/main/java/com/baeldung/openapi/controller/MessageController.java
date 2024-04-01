@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MessageController {
 
-  // The jersey counterypart of this would be:
+  // The jersey counterpart of this would be:
   // @GET
   // @Path("/chat")
-  // public Message chat(@QueryParam("source) String source) {
+  // public Message chat(@QueryParam("source") String source) {
 
   @GetMapping("/chat")
   public Message chat(@RequestParam String source) {
