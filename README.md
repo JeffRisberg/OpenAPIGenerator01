@@ -1,4 +1,4 @@
-## Spring Boot Libraries
+## OpenAPIGenerator01 - using Spring Boot Libraries
 
 This module contains articles about various Spring Boot libraries
 
