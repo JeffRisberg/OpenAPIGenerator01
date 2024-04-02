@@ -83,8 +83,8 @@
                 <dateLibrary>java8</dateLibrary>
                 <openApiNullable>false</openApiNullable>
                 <delegatePattern>true</delegatePattern>
-                <apiPackage>com.baeldung.openapi.api</apiPackage>
-                <modelPackage>com.baeldung.openapi.api.model</modelPackage>
+                <apiPackage>com.company.openapi.api</apiPackage>
+                <modelPackage>com.company.openapi.api.model</modelPackage>
                 <documentationProvider>source</documentationProvider>
               </configOptions>
             </configuration>

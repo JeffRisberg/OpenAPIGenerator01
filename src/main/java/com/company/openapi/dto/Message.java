@@ -1,4 +1,4 @@
-package com.baeldung.openapi.dto;
+package com.company.openapi.dto;
 
 import lombok.Data;
 
